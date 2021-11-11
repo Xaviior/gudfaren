@@ -13,6 +13,10 @@
 .game-body {
   width: 50vw;
   height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
 }
 .register {
   display: flex;
@@ -27,7 +31,7 @@
 #userName {
   width: 10rem;
   height: 2rem;
-  background-color: grey;
+  background-color: rgb(203, 202, 202);
   border-radius: 5px;
   border: 0;
   color: beige;
@@ -35,4 +39,13 @@
 #new-user {
   display: flex;
   flex-direction: column;
+}
+#register-btn {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
 }
