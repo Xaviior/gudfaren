@@ -3,11 +3,7 @@
     <%- include ('partials/mainLogo') %>
     <div id="game-window">
       <div class="game-body">
-          <form action="/newUser" method="POST" id="new-user">
-            <input type="text" name="userName" id="userName" placeholder="User Name">
-            <button id="register-btn">Create</button>
-          </form>
-        
+<%-include('partials/create-game-name')  %> 
       </div>
     </div>
 </body>

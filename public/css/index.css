@@ -13,10 +13,7 @@
 .game-body {
   width: 50vw;
   height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .register {
   display: flex;
@@ -40,12 +37,55 @@
   display: flex;
   flex-direction: column;
 }
+#userName {
+  border: 1px solid rgb(85, 84, 84);
+  margin: 4px;
+}
 #register-btn {
-  margin: 1rem;
   padding: 0.5rem;
+}
+.create-game-name {
+  width: 50vw;
+  height: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
+  /*   border: 1px solid blue; */
+  height: 5rem;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+.navbar-ul {
+  /* border: 1px solid magenta; */
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+#city-select {
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-ul li {
+  border: 1px solid grey;
+  width: 7rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  .game-body {
+    width: 95vw;
+    height: 100vh;
+  }
 }
