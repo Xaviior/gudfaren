@@ -6,6 +6,8 @@ const path = require("path");
 const methodOverride = require("method-override");
 const mongoose = require("mongoose");
 const User = require("./models/user");
+const CityPrice = require("./models/city");
+const cronJob = require("node-cron");
 
 mongoose
   .connect(`mongodb://localhost:${mongoPort}/gudfaren`)

@@ -1,11 +1,15 @@
 <section class="navbar">
   <ul class="navbar-ul">
     <li>
-      <select name="city-select" id="city-select">
-        <option value="Vaaler">Våler</option>
-        <option value="Vaaler">Våler</option>
-        <option value="Vaaler">Våler</option>
-        <option value="Vaaler">Våler</option>
+      <select
+        name="city-select"
+        id="city-select"
+        onchange="location = this.value;"
+      >
+        <option value="Vaaler" value="/vaaler">Våler</option>
+        <option value="Vaaler" value="/#">Torronto</option>
+        <option value="Vaaler" value="/#">Egypt</option>
+        <option value="Vaaler" value="/#">Central Park</option>
       </select>
     </li>
     <li>Street</li>
